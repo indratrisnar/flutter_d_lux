@@ -1,0 +1,19 @@
+{
+  "name": "flutter_d_lux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indratrisnar/flutter_d_lux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indratrisnar/flutter_d_lux/issues"
+  },
+  "homepage": "https://github.com/indratrisnar/flutter_d_lux#readme"
+}
