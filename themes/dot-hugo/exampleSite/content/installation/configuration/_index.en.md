@@ -17,7 +17,7 @@ Note that some of these parameters are explained in details in other sections of
 ```toml
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/dot/site/"
-title = "Dot"
+title = "Flutter D Lux"
 theme = ["dot-hugo"]
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "UTC"
