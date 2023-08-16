@@ -1,9 +1,8 @@
-[build.processing]
-  skip_processing = true
-
 [build]
-  command = "hugo"
-  publish = "public"
+publish = "public"
+command = "yarn project-setup && yarn build"
 
 [build.environment]
-  HUGO_VERSION = "0.117.0"
+HUGO_VERSION = "0.117.0"
+GO_VERSION = "1.21.0"
+HUGO_BASEURL = "/"
