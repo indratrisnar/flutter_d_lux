@@ -1,0 +1,14 @@
+- id: topics_title
+  translation: Fitur & Layanan
+
+- id: send
+  translation: Kirim
+
+- id: search
+  translation: SearchCari
+
+- id: search_placeholder
+  translation: Cari...
+
+- id: search_result
+  translation: Hasil pencarian untuk

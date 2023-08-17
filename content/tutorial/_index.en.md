@@ -1,9 +1,9 @@
 ---
-title: "Billing & Pricing"
+title: "Tutorial & Tips"
 date: 2022-12-28T11:02:05+06:00
 icon: "ti-credit-card"
-description: "Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet"
-type : "docs"
+description: "Best practice way to code Flutter along with explanations"
+type: "docs"
 ---
 
 Many businesses employ full-time pricing analysts or hire an analyst as a consultant for a particular project or concern.
