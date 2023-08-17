@@ -1,8 +1,8 @@
 {
-  "name": "dot-hugo",
-  "version": "2.6.0",
-  "license": "UNLICENSED",
-  "author": "gethugothemes",
+  "name": "flutter_d_lux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
   "scripts": {
     "dev": "hugo server",
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
@@ -17,9 +17,23 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@tinacms/cli": "^1.5.28",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
     "prettier": "^2.8.4",
     "prettier-plugin-go-template": "0.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indratrisnar/flutter_d_lux.git"
+  },
+  "author": "indratrisnar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indratrisnar/flutter_d_lux/issues"
+  },
+  "homepage": "https://github.com/indratrisnar/flutter_d_lux#readme",
+  "dependencies": {
+    "tinacms": "^1.5.19"
   }
 }
