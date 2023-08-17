@@ -9,7 +9,3 @@ name = "Faq"
 url = "faq/"
 weight = 2
 
-[[main]]
-name = "contact"
-url = "contact/"
-weight = 3
