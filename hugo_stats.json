@@ -197,6 +197,7 @@
     "ids": [
       "Search",
       "accordion-wrapper",
+      "bargroupingtype",
       "collapse-1c25a5266d608081331eb03314a464bb33bb9dec",
       "collapse-421c5a3aa340ee3f49d8d53f6de8b2f3cbadceb8",
       "collapse-4d710ece1d856c56cce8a2c63331644357dc915c",
@@ -208,6 +209,7 @@
       "content",
       "domain-type",
       "en",
+      "fillpattern",
       "id",
       "kursus-terbaik",
       "labelanchor",
