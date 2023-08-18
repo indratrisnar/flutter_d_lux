@@ -16,3 +16,4 @@ open in [pub.dev](https://pub.dev/packages/d_chart) or [github](https://github.c
 |  7  | [Scatter Plot (Point)]                                  | -       |
 |  8  | [Single Bar]                                            | -       |
 |  9  | [Combo](https://flutterdlux.netlify.app/d_chart_combo/) | -       |
+|  9  | [Combo](http://localhost:1313/dot/site/d_chart_combo/)  | -       |
