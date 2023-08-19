@@ -8,13 +8,12 @@ type: "docs"
 
 kjhkjhkj
 
-| No  | Name                                        | Documentation                                   |
-| :-: | ------------------------------------------- | ----------------------------------------------- |
-|  1  | [d_chart](https://pub.dev/packages/d_chart) | [Read](http://localhost:1313/dot/site/d_chart)  |
-|  1  | [d_chart](https://pub.dev/packages/d_chart) | [Read](https://flutterdlux.netlify.app/d_chart) |
-|  2  | d_info                                      | -                                               |
-|  3  | d_input                                     | -                                               |
-|  4  | d_button                                    | -                                               |
-|  5  | d_method                                    | -                                               |
-|  6  | d_view                                      | -                                               |
-|  7  | d_session                                   | -                                               |
+| No  | Name                                        | Documentation    |
+| :-: | ------------------------------------------- | ---------------- |
+|  1  | [d_chart](https://pub.dev/packages/d_chart) | [Read](/d_chart) |
+|  2  | d_info                                      | -                |
+|  3  | d_input                                     | -                |
+|  4  | d_button                                    | -                |
+|  5  | d_method                                    | -                |
+|  6  | d_view                                      | -                |
+|  7  | d_session                                   | -                |

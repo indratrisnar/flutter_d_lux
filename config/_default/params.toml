@@ -110,10 +110,10 @@ content = "This site uses cookies. By continuing to use this website, you agree 
 button = "I Accept"
 
 ############################# social site ########################
-[[social]]
-title = "google-play"
-icon = "ti-google-play" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://play.google.com/store/apps/dev?id=6442247675358984592&hl=en-ID"
+# [[social]]
+#title = "google-play"
+#icon = "ti-google-play" # fontawesome icon pack : https://fontawesome.com/icons/
+#link = "https://play.google.com/store/apps/dev?id=6442247675358984592&hl=en-ID"
 
 [[social]]
 title = "github"
