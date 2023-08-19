@@ -9,7 +9,7 @@ Combo charts are divided into Ordinal, Numeric, and Time domain types. For the c
 
 <br>
 
-###### Domain Type
+#### Domain Type
 
 | Type    | Data     | Widget       |
 | ------- | -------- | ------------ |

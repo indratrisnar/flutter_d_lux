@@ -9,7 +9,7 @@ Combo chart dibagi menjadi tipe domain Ordinal, Numeric, dan Time. Untuk bentuk 
 
 <br>
 
-###### Tipe Domain
+#### Tipe Domain
 
 | Tipe    | Data     | Widget       |
 | ------- | -------- | ------------ |
