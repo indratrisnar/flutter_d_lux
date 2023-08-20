@@ -227,7 +227,7 @@
       "labelstyle",
       "linestyle",
       "navigation",
-      "numeric",
+      "penggunaan",
       "properti",
       "property",
       "search-result-body",
@@ -235,7 +235,6 @@
       "searchModal",
       "select-language",
       "symbolrender",
-      "time",
       "tipe-domain",
       "title",
       "title-apakah-coursenya-berbayar",
@@ -246,7 +245,8 @@
       "title-dimana-saya-bisa-mengakases-package-nya",
       "title-do-you-provide-application-development-services",
       "title-where-can-i-access-the-package",
-      "top-course"
+      "top-course",
+      "usage"
     ]
   }
 }

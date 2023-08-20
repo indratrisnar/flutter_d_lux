@@ -1,5 +1,5 @@
 ---
-title: "1. Basic Ordinal"
+title: "3. Basic Time"
 date: 2023-08-17T17:10:57+07:00
 weight: 1
 draft: false
@@ -14,16 +14,17 @@ keywords:
     "line",
     "bar",
     "scatter",
-    "ordinal",
+    "time",
+    "date",
   ]
 ---
 
 ```dart
-List<OrdinalData> ordinalList = [
-  OrdinalData(domain: 'Mon', measure: 3),
-  OrdinalData(domain: 'Tue', measure: 5),
-  OrdinalData(domain: 'Wed', measure: 9),
-  OrdinalData(domain: 'Thu', measure: 6.5),
+List<TimeData> timeList = [
+  TimeData(domain: DateTime(2023, 8, 17), measure: 3),
+  TimeData(domain: DateTime(2023, 8, 18), measure: 5),
+  TimeData(domain: DateTime(2023, 8, 19), measure: 9),
+  TimeData(domain: DateTime(2023, 9, 2), measure: 6.5),
 ];
 ```
 
@@ -34,12 +35,12 @@ List<OrdinalData> ordinalList = [
 ```dart
 AspectRatio(
   aspectRatio: 16 / 9,
-  child: DChartComboO(
+  child: DChartComboT(
     groupList: [
-      OrdinalGroup(
+      TimeGroup(
         id: '1',
         chartType: ChartType.bar,
-        data: ordinalList,
+        data: timeList,
       ),
     ],
   ),
@@ -58,12 +59,12 @@ AspectRatio(
 ```dart
 AspectRatio(
   aspectRatio: 16 / 9,
-  child: DChartComboO(
+  child: DChartComboT(
     groupList: [
-      OrdinalGroup(
+      TimeGroup(
         id: '1',
         chartType: ChartType.line,
-        data: ordinalList,
+        data: timeList,
       ),
     ],
   ),
@@ -82,12 +83,12 @@ AspectRatio(
 ```dart
 AspectRatio(
   aspectRatio: 16 / 9,
-  child: DChartComboO(
+  child: DChartComboT(
     groupList: [
-      OrdinalGroup(
+      TimeGroup(
         id: '1',
         chartType: ChartType.scatterPlot,
-        data: ordinalList,
+        data: timeList,
       ),
     ],
   ),
@@ -107,22 +108,22 @@ AspectRatio(
 ```dart
 AspectRatio(
   aspectRatio: 16 / 9,
-  child: DChartComboO(
+  child: DChartComboT(
     groupList: [
-      OrdinalGroup(
+      TimeGroup(
         id: '1',
         chartType: ChartType.bar,
-        data: ordinalList,
+        data: timeList,
       ),
-      OrdinalGroup(
+      TimeGroup(
         id: '2',
         chartType: ChartType.line,
-        data: ordinalList,
+        data: timeList,
       ),
-      OrdinalGroup(
+      TimeGroup(
         id: '3',
         chartType: ChartType.scatterPlot,
-        data: ordinalList,
+        data: timeList,
       ),
     ],
   ),

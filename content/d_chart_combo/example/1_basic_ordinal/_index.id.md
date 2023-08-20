@@ -115,12 +115,12 @@ AspectRatio(
         data: ordinalList,
       ),
       OrdinalGroup(
-        id: '1',
+        id: '2',
         chartType: ChartType.line,
         data: ordinalList,
       ),
       OrdinalGroup(
-        id: '1',
+        id: '3',
         chartType: ChartType.scatterPlot,
         data: ordinalList,
       ),

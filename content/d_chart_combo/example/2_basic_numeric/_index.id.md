@@ -1,5 +1,5 @@
 ---
-title: "1. Basic Ordinal"
+title: "2. Basic Numeric"
 date: 2023-08-17T17:10:57+07:00
 weight: 1
 draft: false
@@ -14,16 +14,16 @@ keywords:
     "line",
     "bar",
     "scatter",
-    "ordinal",
+    "numeric",
   ]
 ---
 
 ```dart
-List<OrdinalData> ordinalList = [
-  OrdinalData(domain: 'Mon', measure: 3),
-  OrdinalData(domain: 'Tue', measure: 5),
-  OrdinalData(domain: 'Wed', measure: 9),
-  OrdinalData(domain: 'Thu', measure: 6.5),
+List<NumericData> numericList = [
+  NumericData(domain: 1, measure: 3),
+  NumericData(domain: 2, measure: 5),
+  NumericData(domain: 3, measure: 9),
+  NumericData(domain: 4, measure: 6.5),
 ];
 ```
 
@@ -34,12 +34,12 @@ List<OrdinalData> ordinalList = [
 ```dart
 AspectRatio(
   aspectRatio: 16 / 9,
-  child: DChartComboO(
+  child: DChartComboN(
     groupList: [
-      OrdinalGroup(
+      NumericGroup(
         id: '1',
         chartType: ChartType.bar,
-        data: ordinalList,
+        data: numericList,
       ),
     ],
   ),
@@ -58,12 +58,12 @@ AspectRatio(
 ```dart
 AspectRatio(
   aspectRatio: 16 / 9,
-  child: DChartComboO(
+  child: DChartComboN(
     groupList: [
-      OrdinalGroup(
+      NumericGroup(
         id: '1',
         chartType: ChartType.line,
-        data: ordinalList,
+        data: numericList,
       ),
     ],
   ),
@@ -82,12 +82,12 @@ AspectRatio(
 ```dart
 AspectRatio(
   aspectRatio: 16 / 9,
-  child: DChartComboO(
+  child: DChartComboN(
     groupList: [
-      OrdinalGroup(
+      NumericGroup(
         id: '1',
         chartType: ChartType.scatterPlot,
-        data: ordinalList,
+        data: numericList,
       ),
     ],
   ),
@@ -107,22 +107,22 @@ AspectRatio(
 ```dart
 AspectRatio(
   aspectRatio: 16 / 9,
-  child: DChartComboO(
+  child: DChartComboN(
     groupList: [
-      OrdinalGroup(
+      NumericGroup(
         id: '1',
         chartType: ChartType.bar,
-        data: ordinalList,
+        data: numericList,
       ),
-      OrdinalGroup(
+      NumericGroup(
         id: '2',
         chartType: ChartType.line,
-        data: ordinalList,
+        data: numericList,
       ),
-      OrdinalGroup(
+      NumericGroup(
         id: '3',
         chartType: ChartType.scatterPlot,
-        data: ordinalList,
+        data: numericList,
       ),
     ],
   ),
