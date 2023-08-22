@@ -5,42 +5,24 @@ date: 2023-08-17T17:10:57+07:00
 
 open in [pub.dev](https://pub.dev/packages/d_chart) or [github](https://github.com/indratrisnar/d_chart)
 
-|  No  | Type                     | Widget                 |
-| :--: | ------------------------ | ---------------------- |
-|  1   | [Bar]                    | DChartBar \            |
-| ^^ d |                          | \DChartBarO\DChartBarT |
-|  2   | [Line]                   | -                      |
-|  3   | [Pie & Donut]            | -                      |
-|  4   | [Gauge]                  | -                      |
-|  5   | [Bar Custom]             | -                      |
-|  6   | [Time]                   | -                      |
-|  7   | [Scatter Plot (Point)]   | -                      |
-|  8   | [Single Bar]             | -                      |
-|  9   | [Combo](/d_chart_combo/) | -                      |
+| Code | Type    | Domain   |
+| ---- | ------- | -------- |
+| N    | Numeric | Number   |
+| O    | Ordinal | String   |
+| T    | Time    | DateTime |
 
 <br>
 
-#### Usage
+| No  | Type                     | Widget                                                                                                    |
+| :-: | ------------------------ | --------------------------------------------------------------------------------------------------------- |
+|  1  | [Bar]                    | <div style="height:40px">DChartBar</div><div style="height:40px">DChartBarO</div>DChartBarT               |
+|  2  | [Line]                   | <div style="height:40px">DChartLine</div> <div style="height:40px">DChartLineN</div> DChartLineT          |
+|  3  | [Scatter]                | <div style="height:40px">DChartScatter</div> <div style="height:40px">DChartScatterN</div> DChartScatterT |
+|  4  | [Combo](/d_chart_combo/) | <div style="height:40px">DChartComboN</div> <div style="height:40px">DChartComboO</div> DChartComboT      |
+|  5  | [Pie & Donut]            | DChartPie                                                                                                 |
+|  6  | [Gauge]                  | DChartGauge                                                                                               |
+|  7  | [Bar Custom]             | DChartBarCustom                                                                                           |
+|  8  | [Time]                   | DChartTime                                                                                                |
+|  9  | [Single Bar]             | DChartSingleBar                                                                                           |
 
-Wrap it using a widget that has a size like:
-
-- [AspecRatio](https://api.flutter.dev/flutter/widgets/AspectRatio-class.html)
-- [SizedBox](https://api.flutter.dev/flutter/widgets/SizedBox-class.html)
-- [Container](https://api.flutter.dev/flutter/widgets/Container-class.html)
-
-```dart
-AspectRatio(
-    aspectRatio: 1,
-    child: DChartComboO(),
-),
-SizedBox(
-    width: 200,
-    height: 100,
-    child: DChartComboO(),
-),
-Container(
-    width: 200,
-    height: 100,
-    child: DChartComboO(),
-),
-```
+<br>
