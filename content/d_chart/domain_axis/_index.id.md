@@ -16,20 +16,23 @@ DomainAxis? domainAxis
 
 ##### Properti
 
-| Nama           | Tipe Data                   | Default              | Deskripsi                                                                                                                                                            |
-| -------------- | --------------------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| gapAxisToLabel | int?                        | `5`                  | Memberikan jarak antara label domain dengan line domain                                                                                                              |
-|                |                             |                      | {{< image src="gap.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}   |
-| labelAnchor    | [LabelAnchor](#labelanchor) | LabelAnchor.centered | Posisi label berdasarkan garis/titik point                                                                                                                           |
-| labelStyle     | [LabelStyle](#labelstyle)   | LabelStyle()         | Memberikan style pada label teks domain                                                                                                                              |
-| lineStyle      | [LineStyle](#linestyle)     | LineStyle()          | Memberikan style pada line domain                                                                                                                                    |
-| showLine       | bool                        | true                 | Menampilkan line domain                                                                                                                                              |
-| thickLength    | int                         | 3                    | Garis/titik point                                                                                                                                                    |
-|                |                             |                      | {{< image src="thick.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}} |
+| <div style="width:150px">Nama</div> | <div style="width:150px">Tipe Data</div> | Default              | Deskripsi                                                                                                                                                            |
+| ----------------------------------- | ---------------------------------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| gapAxisToLabel                      | int?                                     | `5`                  | Memberikan jarak antara label domain dengan line domain                                                                                                              |
+|                                     |                                          |                      | {{< image src="gap.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}   |
+| labelAnchor                         | [LabelAnchor](#labelanchor)              | LabelAnchor.centered | Posisi label berdasarkan garis/titik point                                                                                                                           |
+| labelStyle                          | [LabelStyle](#labelstyle)                | LabelStyle()         | Memberikan style pada label teks domain                                                                                                                              |
+| lineStyle                           | [LineStyle](#linestyle)                  | LineStyle()          | Memberikan style pada line domain                                                                                                                                    |
+| showLine                            | bool                                     | true                 | Menampilkan line domain                                                                                                                                              |
+| thickLength                         | int                                      | 3                    | Garis/titik point                                                                                                                                                    |
+|                                     |                                          |                      | {{< image src="thick.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}} |
+| numericViewport                     | [NumericViewport](#numericviewport)      | null                 | Membatasi area pandang chart                                                                                                                                         |
+| ordinalViewport                     | [OrdinalViewport](#ordinalviewport)      | null                 | Membatasi area pandang chart                                                                                                                                         |
+| timeViewport                        | [TimeViewport](#timeviewport)            | null                 | Membatasi area pandang chart                                                                                                                                         |
 
 <br>
 
-###### LabelAnchor
+#### LabelAnchor
 
 | Tipe                 | Deskripsi                                                                                                                                                                                                |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -44,7 +47,7 @@ DomainAxis? domainAxis
 
 <br>
 
-###### LabelStyle
+#### LabelStyle
 
 | Properti | Tipe Data | Default        | Deskripsi                          |
 | -------- | --------- | -------------- | ---------------------------------- |
@@ -55,7 +58,7 @@ DomainAxis? domainAxis
 
 <br>
 
-###### LineStyle
+#### LineStyle
 
 | Properti    | Tipe Data   | Default     | Deskripsi                         |
 | ----------- | ----------- | ----------- | --------------------------------- |
@@ -64,5 +67,126 @@ DomainAxis? domainAxis
 | thickness   | int?        | 1           | Set ketebalan label domain        |
 
 {{< image src="line_style.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+
+<br>
+
+#### NumericViewport
+
+```dart
+NumericViewport(min, max)
+```
+
+Prasyarat: [min] <= [max]\
+Disarankan menambahkan jarak sebelum [min] dan setelah [max]. Maksudnya untuk memberikan ruang awal dan akhir.
+
+| Parameter | Tipe Data | Default    | Deskripsi                |
+| --------- | --------- | ---------- | ------------------------ |
+| min       | num       | `required` | Batas awal sumbu domain  |
+| max       | num       | `required` | Batas akhir sumbu domain |
+
+<table>
+    
+ <tr>
+ <td style="text-align: center; vertical-align: middle;">null</td>
+ <td><div>
+
+```dart
+NumericViewport(2, 4.5)
+```
+
+  </div></td>
+
+ </tr>
+ <tr>
+ <td>
+{{< image src="numericViewport_null.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+ </td>
+ <td>
+ {{< image src="numericViewport.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+ </td>
+
+ </tr>
+</table>
+
+<br>
+
+#### OrdinalViewport
+
+```dart
+OrdinalViewport(startingDomain, dataSize)
+```
+
+Area pandang untuk mencakup jumlah data [dataSize] mulai dari nilai [startingDomain].
+
+| Parameter      | Tipe Data | Default    | Deskripsi                    |
+| -------------- | --------- | ---------- | ---------------------------- |
+| startingDomain | String    | `required` | Batas awal sumbu domain      |
+| dataSize       | int       | `required` | Jumlah data yang ditampilkan |
+
+<table>
+    
+ <tr>
+ <td style="text-align: center; vertical-align: middle;">null</td>
+ <td><div>
+
+```dart
+OrdinalViewport('Wed', 2)
+```
+
+  </div></td>
+
+ </tr>
+ <tr>
+ <td>
+{{< image src="ordinalViewport_null.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+ </td>
+ <td>
+ {{< image src="ordinalViewport.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+ </td>
+
+ </tr>
+</table>
+
+<br>
+
+#### TimeViewport
+
+```dart
+TimeViewport(start, end)
+```
+
+Area pandang untuk menampilkan chart berdasarkan batas waktu awal dan akhir.
+
+| Parameter | Tipe Data | Default    | Deskripsi                |
+| --------- | --------- | ---------- | ------------------------ |
+| start     | DateTime  | `required` | Batas awal sumbu domain  |
+| end       | DateTime  | `required` | Batas akhir sumbu domain |
+
+<table>
+    
+ <tr>
+ <td style="text-align: center; vertical-align: middle;">null</td>
+ <td><div>
+
+```dart
+TimeViewport(
+    DateTime(2023, 8, 27),
+    DateTime(2023, 8, 30),
+),
+```
+
+  </div></td>
+
+ </tr>
+ <tr>
+ <td>
+{{< image src="timeViewport_null.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+ </td>
+ <td>
+ {{< image src="timeViewport.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false" >}}
+ </td>
+
+ </tr>
+</table>
 
 <br>
