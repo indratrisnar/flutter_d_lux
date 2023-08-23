@@ -126,35 +126,34 @@ AspectRatio(
 [Galeri](#galeri)
 
 ```dart
-List<NumericData> numericList = [
-    NumericData(domain: 1, measure: 3),
-    NumericData(domain: 2, measure: 5),
-    NumericData(domain: 3, measure: 9),
-    NumericData(domain: 4, measure: 6.5),
+List<TimeData> timeList = [
+    TimeData(domain: DateTime(2023, 8, 26), measure: 3),
+    TimeData(domain: DateTime(2023, 8, 27), measure: 5),
+    TimeData(domain: DateTime(2023, 8, 29), measure: 9),
+    TimeData(domain: DateTime(2023, 9, 1), measure: 6.5),
 ];
-
-final numericGroup = [
-    NumericGroup(
+final timeGroup = [
+    TimeGroup(
         id: '1',
         chartType: ChartType.bar,
-        data: numericList,
+        data: timeList,
     ),
-    NumericGroup(
+    TimeGroup(
         id: '2',
         chartType: ChartType.line,
-        data: numericList,
+        data: timeList,
     ),
-    NumericGroup(
+    TimeGroup(
         id: '3',
         chartType: ChartType.scatterPlot,
-        data: numericList,
+        data: timeList,
     ),
 ];
 
 AspectRatio(
     aspectRatio: 16 / 9,
-    child: DChartComboN(
-        groupList: numericGroup,
+    child: DChartComboT(
+        groupList: timeGroup,
     ),
 ),
 ```
