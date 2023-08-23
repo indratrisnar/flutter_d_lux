@@ -20,6 +20,7 @@
       "h6",
       "head",
       "header",
+      "hr",
       "html",
       "i",
       "img",
@@ -196,6 +197,9 @@
       "visually-hidden"
     ],
     "ids": [
+      "1-basic-numeric",
+      "2-basic-ordinal",
+      "3-basic-time",
       "Search",
       "accordion-wrapper",
       "bargroupingtype",
@@ -203,6 +207,9 @@
       "barlabeldecorator",
       "barlabelposition",
       "barlabelvalue",
+      "caption-Basic Numeric",
+      "caption-Basic Ordinal",
+      "caption-Basic Time",
       "caption-false",
       "caption-true",
       "charttype",
@@ -219,6 +226,8 @@
       "domain-type",
       "en",
       "fillpattern",
+      "galeri",
+      "gallery",
       "group",
       "id",
       "kursus-terbaik",
@@ -237,7 +246,6 @@
       "select-language",
       "symbolrender",
       "timeviewport",
-      "tipe-domain",
       "title",
       "title-apakah-coursenya-berbayar",
       "title-apakah-menyediakan-jasa-pembuatan-aplikasi",
@@ -247,7 +255,8 @@
       "title-dimana-saya-bisa-mengakases-package-nya",
       "title-do-you-provide-application-development-services",
       "title-where-can-i-access-the-package",
-      "top-course"
+      "top-course",
+      "tutorial"
     ]
   }
 }
