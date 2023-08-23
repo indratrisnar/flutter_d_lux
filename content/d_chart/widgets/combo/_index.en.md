@@ -33,7 +33,7 @@ Combo charts are divided into Ordinal, Numeric, and Time domain types. For the c
 <hr>
 <br>
 
-## Galeri
+## Gallery
 
 | <div style="width:30%"></div>                                                                                                                                                                                 | <div style="width:30%"></div>                                                                                                                                                                                 | <div style="width:30%"></div>                                                                                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -45,7 +45,7 @@ Combo charts are divided into Ordinal, Numeric, and Time domain types. For the c
 
 ###### 1. Basic Numeric
 
-[Galeri](#galeri)
+[Gallery](#gallery)
 
 ```dart
 List<NumericData> numericList = [
@@ -83,7 +83,7 @@ AspectRatio(
 
 ###### 2. Basic Ordinal
 
-[Galeri](#galeri)
+[Gallery](#gallery)
 
 ```dart
 List<OrdinalData> ordinalList = [
@@ -123,7 +123,7 @@ AspectRatio(
 
 ###### 3. Basic Time
 
-[Galeri](#galeri)
+[Gallery](#gallery)
 
 ```dart
 List<NumericData> numericList = [
