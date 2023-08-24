@@ -2,7 +2,6 @@
   "htmlElements": {
     "tags": [
       "a",
-      "blockquote",
       "body",
       "br",
       "button",
@@ -223,7 +222,6 @@
       "collapse-f14465a17ac63dce718056c693f937ef1a01cc0c",
       "content",
       "data",
-      "domain-type",
       "en",
       "fillpattern",
       "galeri",
