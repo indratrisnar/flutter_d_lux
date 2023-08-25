@@ -19,7 +19,7 @@ Buka di [pub.dev](https://pub.dev/packages/d_chart) atau [github](https://github
 |  2  | [Line](/id/d_chart/widgets/line/)             | <div style="height:40px">DChartLineN</div> DChartLineT                                               |
 |  3  | [Scatter](/id/d_chart/widgets/scatter/)       | <div style="height:40px">DChartScatterN</div> DChartScatterT                                         |
 |  4  | [Combo](/id/d_chart/widgets/combo/)           | <div style="height:40px">DChartComboN</div> <div style="height:40px">DChartComboO</div> DChartComboT |
-|  5  | [Pie]                                         | <div style="height:40px">DChartPieN</div> <div style="height:40px">DChartPieO</div> DChartPieT       |
+|  5  | [Pie](/id/d_chart/widgets/pie/)               | <div style="height:40px">DChartPieN</div> <div style="height:40px">DChartPieO</div> DChartPieT       |
 |  6  | [Bar Custom](/id/d_chart/widgets/bar_custom/) | DChartBarCustom                                                                                      |
 |  7  | [Single Bar](/id/d_chart/widgets/single_bar/) | DChartSingleBar                                                                                      |
 
