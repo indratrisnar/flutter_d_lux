@@ -10,11 +10,21 @@ Currently, only for Pie Chart.
 
 | Type                                | Default      |
 | ----------------------------------- | ------------ |
+| num Function(NumericData, int?)?    | domain value |
 | String Function(OrdinalData, int?)? | domain value |
+| DateTime Function(TimeData, int?)?  | domain value |
 
 ```dart
+customLabel: (numericData, index) {
+    return '${numericData.domain}: ${numericData.measure} kg';
+},
+
 customLabel: (ordinalData, index) {
     return '${ordinalData.domain}: ${ordinalData.measure}';
+},
+
+customLabel: (timeData, index) {
+    return '${timeData.domain}: ${timeData.measure}';
 },
 ```
 

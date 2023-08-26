@@ -14,7 +14,7 @@ MeasureAxis? measureAxis
 
 <br>
 
-##### Properti
+#### Properti
 
 | Nama                | Tipe Data                              | Default              | Deskripsi                                                                                                                                                           |
 | ------------------- | -------------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -33,7 +33,7 @@ MeasureAxis? measureAxis
 
 <br>
 
-###### LabelAnchor
+#### LabelAnchor
 
 | Tipe                 | Deskripsi                                                                                                                                                                                                |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -48,7 +48,7 @@ MeasureAxis? measureAxis
 
 <br>
 
-###### LabelFormat
+#### LabelFormat
 
 Karena bertipe `String Function(num?)?` maka kita bisa kustomisasi untuk menampilkan label dengan value bersumber dari parameter.
 Misalkan kita ingin menampilkan value beserta satuan nya maka dapat digunakan kode seperti:
@@ -63,7 +63,7 @@ labelFormat: (measure) {
 
 <br>
 
-###### LabelStyle
+#### LabelStyle
 
 | Properti | Tipe Data | Default        | Deskripsi                           |
 | -------- | --------- | -------------- | ----------------------------------- |
@@ -74,7 +74,7 @@ labelFormat: (measure) {
 
 <br>
 
-###### LineStyle
+#### LineStyle
 
 | Properti    | Tipe Data   | Default     | Deskripsi                          |
 | ----------- | ----------- | ----------- | ---------------------------------- |

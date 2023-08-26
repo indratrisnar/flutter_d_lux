@@ -14,7 +14,7 @@ MeasureAxis? measureAxis
 
 <br>
 
-##### Property
+#### Property
 
 | Nama                | Data Type                              | Default              | Description                                                                                                                                                         |
 | ------------------- | -------------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -33,7 +33,7 @@ MeasureAxis? measureAxis
 
 <br>
 
-###### LabelAnchor
+#### LabelAnchor
 
 | Type                 | Description                                                                                                                                                                                              |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -48,7 +48,7 @@ MeasureAxis? measureAxis
 
 <br>
 
-###### LabelFormat
+#### LabelFormat
 
 Because of type `String Function(num?)?`, we can customize it to display labels with values sourced from parameters.
 Suppose we want to display the value along with its units, we can use code like:
@@ -63,7 +63,7 @@ labelFormat: (measure) {
 
 <br>
 
-###### LabelStyle
+#### LabelStyle
 
 | Property | Data Type | Default        | Description                          |
 | -------- | --------- | -------------- | ------------------------------------ |
@@ -74,7 +74,7 @@ labelFormat: (measure) {
 
 <br>
 
-###### LineStyle
+#### LineStyle
 
 | Property    | Data Type   | Default     | Description                             |
 | ----------- | ----------- | ----------- | --------------------------------------- |

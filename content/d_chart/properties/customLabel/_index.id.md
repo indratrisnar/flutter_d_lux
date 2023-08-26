@@ -6,15 +6,25 @@ draft: false
 keywords: ["d_chart", "pie", "chart", "label"]
 ---
 
-Saat ini, khusus untuk Pie Chart.
+Currently, only for Pie Chart.
 
-| Tipe                                | Default      |
+| Type                                | Default      |
 | ----------------------------------- | ------------ |
+| num Function(NumericData, int?)?    | domain value |
 | String Function(OrdinalData, int?)? | domain value |
+| DateTime Function(TimeData, int?)?  | domain value |
 
 ```dart
+customLabel: (numericData, index) {
+    return '${numericData.domain}: ${numericData.measure} kg';
+},
+
 customLabel: (ordinalData, index) {
     return '${ordinalData.domain}: ${ordinalData.measure}';
+},
+
+customLabel: (timeData, index) {
+    return '${timeData.domain}: ${timeData.measure}';
 },
 ```
 

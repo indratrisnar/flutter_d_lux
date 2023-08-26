@@ -32,7 +32,7 @@ DomainAxis? domainAxis
 
 <br>
 
-###### LabelAnchor
+#### LabelAnchor
 
 | Type                 | Description                                                                                                                                                                                              |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,7 +47,7 @@ DomainAxis? domainAxis
 
 <br>
 
-###### LabelStyle
+#### LabelStyle
 
 | Property | Data Type | Default        | Description                        |
 | -------- | --------- | -------------- | ---------------------------------- |
@@ -58,7 +58,7 @@ DomainAxis? domainAxis
 
 <br>
 
-###### LineStyle
+#### LineStyle
 
 | Property    | Data Type   | Default     | Description                           |
 | ----------- | ----------- | ----------- | ------------------------------------- |
